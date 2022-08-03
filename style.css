@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 188, 70);
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoOne {
+    border: transparent;
+    background-color: rgb(243, 240, 226);
+    width: 360px;
+    height: 50px;
+    border-radius: 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 100;
+}
+
+.hamburger {
+    height: 30px;
+    width: 25px;
+    align-self: center;
+}
+
+.bag {
+    height: 25px;
+    width: 25px;
+    align-self: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 970px;
+    align-items: center;
+
+}
+
+.cosiness {
+    height: 400px;
+}
+
+.product {
+    height: 55px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product h2 {
+    font-size: 2.5em;
+}
+
+.product p {
+    font-size: 2.5em;
+}
+
+.textOne {
+    height: 70px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textOne p {
+    font-size: 1.4em;
+}
+
+.textTwo {
+    height: 120px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.textTwo p {
+    font-size: 1.4em;
+}
+
+form {
+    display: flex;
+    width: 360px;
+
+}
+
+form input {
+    width: 1.1em;
+}
+
+form label {
+    font-size: 1.2em;
+}
+
+.jar {
+    margin-left: 50px;
+}
+
+.cont {
+    border: solid;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+    width: 360px;
+    font-size: 1.5em;
+}
+
+.button {
+    width: 360px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    margin-bottom: 60px;
+    font-size: 1.2em;
+}
